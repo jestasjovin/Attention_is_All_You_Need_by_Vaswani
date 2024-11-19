@@ -1,4 +1,4 @@
-### "Attention is All You Need" by Vaswani et al. (2017)
+# "Attention is All You Need" by Vaswani et al. (2017)
 
 ## Introduction
 This paper introduces the Transformer architecture, which is the  backbone of various trending models in NLP, including GPT, BERT.
@@ -23,7 +23,7 @@ The Transformer model architecture is made of mainly two parts
     2. Feedforward Neural Network
        \*position based network applied to each token.
 
-# Encoder Flow
+#### Encoder Flow
 
 1. **Embed** each word into a vector (using an embedding layer).
 2. **Add Positional Encoding** to each word embedding adds word's position in the sequence.
@@ -33,7 +33,7 @@ The Transformer model architecture is made of mainly two parts
 
 After processing through all Encoder Layers, the final embeddings will contain rich contextual information about each word in relation to all others in the sequence.
 
-# **Multi-Head Self-Attention**
+##### **Multi-Head Self-Attention**
 * How does this works
 - **Self-attention** this enables each token to have information on the context of the entire sequence.
 - **Multi-head attention** computes multiple attention scores in parallel Using different learned set of weights of queries, keys, and values. Each head captures different context sequence.
