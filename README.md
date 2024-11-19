@@ -14,7 +14,7 @@ The Transformer model architecture is made of mainly two parts
 - **Encoder**
 - **Decoder**
 
-  **i. Encoder**
+### Encoder
   The Encoder is responsible for processing the input sequence and generating a context representations for each token in the sequence. It also may have indentical layers stacked.
 
   - Consists of stacked two main layers
