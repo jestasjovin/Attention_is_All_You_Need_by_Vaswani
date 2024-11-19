@@ -3,15 +3,15 @@ Linear layers are the simplest kind of neural network layer. They perform a line
 
 **Math operation** 
 
-\[
-y = W \cdot x + b
-\]
+
+y = W.x + b
+
 
 Where:
-- \( y \) is the output vector.
-- \( x \) is the input vector.
-- \( W \) is the weight matrix.
-- \( b \) is the bias vector.
+-  y  is the output vector.
+-  x  is the input vector.
+-  W  is the weight matrix.
+-  b  is the bias vector.
 
 
 
@@ -20,7 +20,7 @@ Where:
 eg in pytorch
 - **in**: size of input vector.
 - **out**: size of output vector.
-- The `Linear` layer will learn the parameters \( W \) and \( b \) during training.
+- The `Linear` layer will learn the parameters  W  and  b  during training.
 
 ```python
 linear_layer = nn.Linear(in_features=10, out_features=5)
