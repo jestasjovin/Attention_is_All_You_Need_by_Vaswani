@@ -63,3 +63,13 @@ The **Sigmoid** function squashes the input to a range between 0 and 1. It's use
 - The **Multi-Head Attention** uses linear layers to transform the input queries, keys, and values.
 - After the attention operation, the results are passed through a **Layer Normalization** step.
 - Then, a **Feedforward Network** (uses linear layers) is applied.
+
+
+
+
+
+# Observations
+
+As i learn and do some projects ,I got to understand that  everything should be about what we learn from the data, what to predict from the data, is it worth it.
+Do we really need a model or just a standard algorthms.
+
