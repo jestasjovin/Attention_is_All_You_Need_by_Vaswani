@@ -19,9 +19,9 @@ The Transformer model architecture is made of mainly two parts
 
   - Consists of stacked two main layers
     1. Multi-Head Self-Attention
-       \*allows the model to focus on different parts of the input sequence.
+       allows the model to focus on different parts of the input sequence.
     2. Feedforward Neural Network
-       \*position based network applied to each token.
+       position based network applied to each token.
 
 #### Encoder Flow
 
