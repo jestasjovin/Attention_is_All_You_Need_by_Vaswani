@@ -1,7 +1,10 @@
 # "Attention is All You Need" by Vaswani et al. (2017)
 
 ## Introduction
-This paper introduces the Transformer architecture, which is the  backbone of various trending models in NLP, including GPT, BERT.
+This project aims to build a Transformer model from scratch in order to gain a deep understanding of how it works under the hood and to enhance general awareness of the subject.
+
+"Attention is All You Need": This paper introduces the Transformer architecture, which serves as the backbone for various leading models in NLP, including GPT and BERT.
+
 
 ## Implementing the Transformer model from scratch
 
